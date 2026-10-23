@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="mi"> <!-- Māori language. -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Search Engine Optimisation (SEO) metadata. -->
+    <meta name="description" content="My website description." />
+    <link rel="canonical" href="http://design.ac.nz/student/2024/your-name/final-project" />
+    <meta property="og:locale" content="en_NZ" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="My Website." />
+    <meta property="og:description" content="My website description." />
+    <meta property="og:url" content="http://design.ac.nz/student/2024/your-name/final-project" />
+    <meta property="og:site_name" content="My Website." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="My website description." />
+    <meta name="twitter:title" content="My Website." />
+    <meta name="twitter:site" content="@YourName" />
+    <meta name="twitter:creator" content="@YourName" />
+    <script
+        type='application/ld+json'>{"@context":"https://schema.org","@type":"WebSite","@id":"http://design.ac.nz/student/2024/your-name/final-project","url":"http://design.ac.nz/student/2024/your-name/final-project","name":"My Website.","potentialAction":{"@type":"SearchAction","target":"http://design.ac.nz/student/2024/your-name/final-project?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+    <script
+        type='application/ld+json'>{"@context":"https://schema.org","@type":"Organization","url":"http://design.ac.nz/student/2024/your-name/final-project","sameAs":["https://www.facebook.com/YourName/","https://www.instagram.com/YourName/","https://www.youtube.com/user/YourName","https://nz.pinterest.com/YourName/","https://twitter.com/YourName"],"@id":"http://design.ac.nz/student/2024/your-name/final-project#organization","name":"My Website. Limited","logo":"http://design.ac.nz/student/2024/your-name/final-project/images/logo.png"}</script>
+    <!-- / (SEO) metadata. -->
+
+    <!-- Google Fonts - Gelasio -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <!-- Google Fonts - hamburger menu icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block" /> 
+
+    <!-- Flickity Carousel CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <title>Website Template</title>
+</head>
+
+<body>
+    <main> <!-- Maximum width of Main content area is 1200px -->
+
+        <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+          HEADER AND NAVIGATION
+    
+        = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+        <header>
+            <div class="top-heading">
+                <h1>The Ultimate Girl's Guide to Surviving your...</h1>
+                <img class="twenties" src="gracesimages/twenty.svg" alt="Twenties">
+            </div>
+
+            <nav class="topnav" id="myTopnav">
+                 <a href="index.html">Home</a>
+                <a href="love-dating.html">Love/Dating</a>
+                <a href="friendships.html">Friendships</a>
+                <a href="lifeuni.html">Life/Uni</a>
+                <a href="money.html">Money</a>
+                <a href="emergencies.html">Emergencies</a>
+            </nav>
+            <button type="button" class="icon" id="menuToggle" onclick="toggleMenu()" aria-label="Toggle menu" aria-expanded="false" aria-controls="myTopnav">
+                <span class="material-symbols-outlined" id="menuIcon">menu</span>
+            </button>
+        </header>
+
+ <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+          INTRODUCTION OR BANNER AREA
+    
+        = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+        <article class="introduction">
+            <h2>
+                From assignments to adulting.
+            </h2>
+            <p>
+                Trying to balance uni, money, work and having an actual life? Yeah, it’s a lot. Here’s your little guide to finding your feet and making the most of this chapter without completely losing your mind.
+            </p>
+        </article>
+
+         
+
+        <main class="main-content-area"> <!-- The main page content -->
+
+        <section class="portfolio-grid"> <!-- A grid of 'cards' comprised of image and caption -->
+
+            <article class="portfolio-item">
+                <img class="portfolio-item__img" src="gracesimages/lifeuni1.jpg">
+                <div class="portfolio-item__details">
+                    <h3 class="portfolio-item__title">01. Staying on top of uni</h3>
+                </div>
+            </article>
+
+            <article class="portfolio-item">
+                <img class="portfolio-item__img" src="gracesimages/lifeeeee.jpg">
+                <div class="portfolio-item__details">
+                    <h3 class="portfolio-item__title">02. Managing your money</h3>
+                </div>
+            </article>
+
+            <article class="portfolio-item">
+                <img class="portfolio-item__img" src="gracesimages/lifeuni3.jpg">
+                <div class="portfolio-item__details">
+                    <h3 class="portfolio-item__title">03. Living independently</h3>
+                </div>
+            </article>
+
+            <article class="portfolio-item">
+                <img class="portfolio-item__img" src="gracesimages/lifeeeeee.jpg">
+                <div class="portfolio-item__details">
+                    <h3 class="portfolio-item__title">04. Finding your balance</h3>
+                </div>
+            </article>
+
+                   <article class="portfolio-item">
+                <div class="portfolio-item__details">                  
+                    <p class="portfolio-item__date">Don't leave everything until the night before. I know I'm definitely not the only one who does this! Keep track of your hand in's, break assignments into certain hours of the day, and start early. Future you will thank you.</p>
+                </div>
+            </article>
+
+            <article class="portfolio-item">
+                <div class="portfolio-item__details">                  
+                    <p class="portfolio-item__date">We all know as soon as that student loan comes in it's pretty hard to resist the urge to spend it all at once. Set aside money for rent, food, and bills first, then give yourself a little budget for fun! You can still enjoy uni without being broke by Wednesday.</p>
+                </div>
+            </article>
+
+            <article class="portfolio-item">
+                <div class="portfolio-item__details">                  
+                    <p class="portfolio-item__date">Learn a few simple meals to cook, keep your space clean so you can still function properly. Remember to be respectful of your living space as you would want others to be respectful of yours. And always remember to take care of yourself!</p>
+                </div>
+            </article>
+
+            <article class="portfolio-item">
+                <div class="portfolio-item__details">                  
+                    <p class="portfolio-item__date">It's easy to get caught up in both grinding out assignments and the excitment of the uni life. That's where it's all about balance. Make time for your friends, try new things and give yourself a break when you need one.</p>
+                </div>
+            </article>
+
+        </section>
+
+                <article class="introduction">
+            <h2>
+                The adulting checklist:
+            </h2>
+            <p>○ Know when rent is due
+                </p>
+       <p>○ Have at least three easy meals you can cook
+        </p>
+        <p>○ Keep track of uni hand in's
+        </p>
+        <p>○ Make time for yourself
+        </p>
+        <p>○ Start the uni assignment before the night it's due
+        </p>
+        <p>○ Remember to buy toilet paper before you run out
+        </p>
+
+    </article>
+
+         <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+            FOOTER
+
+        = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+        <footer>
+
+            <div class="footer__copyright-details">
+                <p>All images are in the public domain.<br>Copyright Grace Cooper © 2026.</p>
+                <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span
+                        property="dct:title">This website</span> by <span property="cc:attributionName">Grace Cooper</span></p>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- ***************************************
+            J A V A S C R I P T   B E L O W !
+         *************************************** -->
+
+   <!-- JavaScript for the MOBILE NAV MENU -->
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById("myTopnav");
+            const icon = document.getElementById("menuIcon");
+            const btn = document.getElementById("menuToggle");
+
+            const isOpen = nav.classList.toggle("responsive");
+            icon.textContent = isOpen ? "close" : "menu";
+            btn.setAttribute("aria-expanded", isOpen);
+        }
+    </script>
+
+</body>
+
+</html>

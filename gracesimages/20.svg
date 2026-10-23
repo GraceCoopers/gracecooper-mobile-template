@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 674.44 372.76">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-2 {
+        fill: #f7add9;
+        font-family: Cochin-Bold, Cochin;
+        font-size: 343px;
+        font-weight: 700;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-2" transform="translate(60.76 285.51)"><tspan x="0" y="0">20</tspan><tspan class="cls-1" x="356.03" y="0">’</tspan><tspan x="413.31" y="0">s</tspan></text>
+  </g>
+</svg>

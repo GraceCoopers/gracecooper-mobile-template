@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="mi"> <!-- Māori language. -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Search Engine Optimisation (SEO) metadata. -->
+    <meta name="description" content="My website description." />
+    <link rel="canonical" href="http://design.ac.nz/student/2024/your-name/final-project" />
+    <meta property="og:locale" content="en_NZ" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="My Website." />
+    <meta property="og:description" content="My website description." />
+    <meta property="og:url" content="http://design.ac.nz/student/2024/your-name/final-project" />
+    <meta property="og:site_name" content="My Website." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="My website description." />
+    <meta name="twitter:title" content="My Website." />
+    <meta name="twitter:site" content="@YourName" />
+    <meta name="twitter:creator" content="@YourName" />
+    <script
+        type='application/ld+json'>{"@context":"https://schema.org","@type":"WebSite","@id":"http://design.ac.nz/student/2024/your-name/final-project","url":"http://design.ac.nz/student/2024/your-name/final-project","name":"My Website.","potentialAction":{"@type":"SearchAction","target":"http://design.ac.nz/student/2024/your-name/final-project?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+    <script
+        type='application/ld+json'>{"@context":"https://schema.org","@type":"Organization","url":"http://design.ac.nz/student/2024/your-name/final-project","sameAs":["https://www.facebook.com/YourName/","https://www.instagram.com/YourName/","https://www.youtube.com/user/YourName","https://nz.pinterest.com/YourName/","https://twitter.com/YourName"],"@id":"http://design.ac.nz/student/2024/your-name/final-project#organization","name":"My Website. Limited","logo":"http://design.ac.nz/student/2024/your-name/final-project/images/logo.png"}</script>
+    <!-- / (SEO) metadata. -->
+
+    <!-- Google Fonts - Gelasio -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <!-- Google Fonts - hamburger menu icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block" /> 
+
+    <!-- Flickity Carousel CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <title>Website Template - Contact me</title>
+</head>
+
+<body>
+    <main> <!-- Maximum width of Main content area is 1200px -->
+
+        <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+          HEADER AND NAVIGATION
+    
+        = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+        <header>
+            <div class="top-heading">
+                <h1>The Ultimate Girl's Guide to Surviving your...</h1>
+                <img class="twenties" src="gracesimages/twenty.svg" alt="Twenties">
+            </div>
+
+           <nav class="topnav" id="myTopnav">
+                 <a href="index.html">Home</a>
+                <a href="love-dating.html">Love/Dating</a>
+                <a href="friendships.html">Friendships</a>
+                <a href="lifeuni.html">Life/Uni</a>
+                <a href="money.html">Money</a>
+                <a href="emergencies.html">Emergencies</a>
+            </nav>
+            <button type="button" class="icon" id="menuToggle" onclick="toggleMenu()" aria-label="Toggle menu" aria-expanded="false" aria-controls="myTopnav">
+                <span class="material-symbols-outlined" id="menuIcon">menu</span>
+            </button>
+        </header>
+
+        <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+          INTRODUCTION OR BANNER AREA
+    
+        = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+        <article class="introduction">
+            <h2>
+                Money, Money, Money.
+            </h2>
+            <p>
+                Being an adult is expensive.
+Nobody prepares you for the moment you realise your money has to cover rent, groceries, power bills, socialising and the occasional sweat treat. It’s all about learning to be a little more responsible and finding the balance between saving for your future and enjoying your life.
+            </p>
+        </article> 
+
+            <article class="introduction">
+            <h2>
+               So where does it all go?
+            </h2>
+        </article> 
+
+            <main class="main-content-area"> <!-- The main page content -->
+
+        <section class="portfolio-grid"> <!-- A grid of 'cards' comprised of image and caption -->
+
+            <article class="portfolio-item">
+                <img class="portfolio-item__img" src="gracesimages/money1.jpg">
+                <div class="portfolio-item__details">
+                    <h3 class="portfolio-item__title">The wants</h3>
+                    <p class="portfolio-item__media">Shopping, beauty, festivals, and impulsive buys.</p>
+                </div>
+            </article>
+
+            <article class="portfolio-item">
+                <img class="portfolio-item__img" src="gracesimages/money2.jpg">
+                <div class="portfolio-item__details">
+                    <h3 class="portfolio-item__title">The sweet treats</h3>
+                    <p class="portfolio-item__media">Coffee, snacks and uber eats.</p>
+                </div>
+            </article>
+
+            <article class="portfolio-item">
+                <img class="portfolio-item__img" src="gracesimages/money5.jpg">
+                <div class="portfolio-item__details">
+                    <h3 class="portfolio-item__title">The future plans</h3>
+                    <p class="portfolio-item__media">Holidays, goals and savings.</p>
+                </div>
+            </article>
+
+            <article class="portfolio-item">
+                <img class="portfolio-item__img" src="gracesimages/money4.jpg">
+                <div class="portfolio-item__details">
+                    <h3 class="portfolio-item__title">The essentials</h3>
+                    <p class="portfolio-item__media">Rent, food and bills.</p>
+                </div>
+            </article>
+
+    </main>
+
+    <article class="introduction">
+            <h2>
+               You've got $200. Now what?
+            </h2>
+            <p>
+              You've got a little extra money in your account. Drag the items on the left that you'd spend it on into the categories that match your priorities. Are you a saver, a spender, or somewhere in between?
+            </p>
+        </article> 
+
+     <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+          DRAGGABLE IMAGES
+    
+        = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+        <article class="draggable-area money-draggable">
+
+            <img src="gracesimages/bills.svg" class="draggable cow" />
+
+            <img src="gracesimages/clothes.svg" class="draggable bear" />
+
+            <img src="gracesimages/drinks.svg" class="draggable cow" />
+            
+            <img src="gracesimages/gas.svg" class="draggable cow" />
+
+            <img src="gracesimages/groceries.svg" class="draggable cow" />
+
+            <img src="gracesimages/gym.svg" class="draggable cow" />
+
+            <img src="gracesimages/makeup.svg" class="draggable cow" />
+
+            <img src="gracesimages/matcha.svg" class="draggable cow" />
+
+            <img src="gracesimages/rnv.svg" class="draggable cow" />
+
+            <img src="gracesimages/skincare.svg" class="draggable cow" />
+
+            <img src="gracesimages/travel.svg" class="draggable cow" />
+
+            <img src="gracesimages/ubereats.svg" class="draggable cow" />
+
+        </article>
+
+         <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+          GRID LAYOUT FOR PORTFOLIO WORK - LANDSCAPE FORMAT
+    
+        = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+        <section class="landscape__grid">
+
+            <a href="single-item.html" class="landscape">
+                <img src="gracesimages/moneywisdom2.svg" alt="landscape image" class="landscape__image">
+            </a>
+
+            <a href="single-item.html" class="landscape">
+                <img src="gracesimages/tip3.JPG" alt="landscape image" class="landscape__image"> 
+                <img src="gracesimages/tip333.svg" alt="landscape image" class="landscape__image">   
+            </a>
+        </section>
+
+
+         <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+            FOOTER
+
+        = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+        <footer>
+
+            <div class="footer__copyright-details">
+                <p>All images are in the public domain.<br>Copyright Grace Cooper © 2026.</p>
+                <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span
+                        property="dct:title">This website</span> by <span property="cc:attributionName">Grace Cooper</span></p>
+            </div>
+        </footer>
+
+    </main>
+
+     <!-- ***************************************
+            J A V A S C R I P T   B E L O W !
+         *************************************** -->
+
+        <script>
+        //Make the DIV element draggagle:
+
+        var mydivs = document.getElementsByClassName("draggable");
+        for (var i = 0; i < mydivs.length; i++) {
+        dragElement(mydivs[i]);
+        }
+
+        function dragElement(elmnt) {
+        var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+
+        if (document.getElementById(elmnt.id + "header")) {
+            document.getElementById(elmnt.id + "header").onpointerdown = dragPointerDown;
+        } else {
+            elmnt.onpointerdown = dragPointerDown;
+        }
+
+        function dragPointerDown(e) {
+            e.preventDefault();
+            elmnt.setPointerCapture(e.pointerId);
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            elmnt.onpointerup = closeDragElement;
+            elmnt.onpointercancel = closeDragElement;
+            elmnt.onpointermove = elementDrag;
+        }
+
+        function elementDrag(e) {
+            e.preventDefault();
+            pos1 = pos3 - e.clientX;
+            pos2 = pos4 - e.clientY;
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+            elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+        }
+
+        function closeDragElement() {
+            elmnt.onpointerup = null;
+            elmnt.onpointercancel = null;
+            elmnt.onpointermove = null;
+        }
+        }
+    </script>
+
+    <!-- ***************************************
+            J A V A S C R I P T   B E L O W !
+         *************************************** -->
+
+   <!-- JavaScript for the MOBILE NAV MENU -->
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById("myTopnav");
+            const icon = document.getElementById("menuIcon");
+            const btn = document.getElementById("menuToggle");
+
+            const isOpen = nav.classList.toggle("responsive");
+            icon.textContent = isOpen ? "close" : "menu";
+            btn.setAttribute("aria-expanded", isOpen);
+        }
+    </script>
+
+</body>
+
+</html>
